@@ -72,7 +72,7 @@
 
 /* Media quary */
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 320px) {
     
     .main {
         background-image: url(https://www.bliss.mv/wp-content/uploads/2020/05/IMG_1483-scaled.jpg);
