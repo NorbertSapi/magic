@@ -1,54 +1,32 @@
 
-    body{
+/*Main box*/
+
+    .main {
         background-image: url("https://fullhdpictures.com/wp-content/uploads/2017/04/Palm-Trees.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: auto;
         margin: 5px;
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+
     }
 
-    .main_box {
+    .main-label {
         background-color: brown;
         opacity: 0.9;
         margin: 5% 40% 30% 5%;
-        padding: 15px;
+        padding: 25px;
     }
 
-    .main_box h1 {
+    .main-label h1 {
         font-size: 40px;
         color: black;
     }
 
-    .main_box p {
+    .main-label p {
         font-size: 18px;
         color:azure;
     }
 
-
-@media screen and (max-width: 280px) {
-    
-    body {
-        background-image: url(https://www.bliss.mv/wp-content/uploads/2020/05/IMG_1483-scaled.jpg);
-        background-size: cover;
-        max-width: 50%;
-        height: auto;
-        background-repeat: no-repeat;
-    }
-
-    .main_box {
-        background-color: lightgreen;
-    }
-    .main_box h1 {
-    font-size: 20px;
-    }
-
-    .main_box p {
-        display: none;
-    }
-
-    .main_box h2 {
-        font-size: 18px;
-    }
-    
-}
