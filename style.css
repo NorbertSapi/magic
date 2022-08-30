@@ -68,3 +68,47 @@
 #flex-container-5 {
     background-image:url("https://images8.alphacoders.com/103/1034952.jpg");
 }
+
+
+/* Media quary */
+
+@media screen and (max-width: 780px) {
+    
+    .main {
+        background-image: url(https://www.bliss.mv/wp-content/uploads/2020/05/IMG_1483-scaled.jpg);
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+    }
+
+    .main-label {
+        margin: 50% 0 20% 50%;
+        background-color: lightgreen;
+
+    }
+
+    .main-label h1 {
+    font-size: 20px;
+    visibility: visible;
+    color: rgb(250, 246, 0);
+    }
+
+    .main-label p {
+        display: none;
+    }
+
+    .main-label h2 {
+        font-size: 16px;
+        visibility: visible;
+        color: rgb(250, 246, 0);
+    }
+
+    /*Pictures*/
+    .pictures {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
