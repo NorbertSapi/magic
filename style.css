@@ -30,3 +30,41 @@
         color:azure;
     }
 
+/* Pictures */
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-direction: row;                                                                                                                                                                                                                                                                                                                                                                                                                               
+}
+
+.flex-container {
+    width: 400px;
+    height: 300px;
+    border: solid 15px white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#flex-container-1 {
+    background-image: url("https://media.greenmatters.com/brand-img/Z1YI0Be/0x0/pexels-photo-753626-1536785401569-1536785403600.jpeg");
+}
+
+#flex-container-2 {
+    background-image: url("http://2.bp.blogspot.com/-w_SAh9om6I0/T9ord4s0jeI/AAAAAAAABWM/MYLghFKAU44/s1600/Small+Island+-+Seychelles+1.jpg");
+}
+
+#flex-container-3 {
+    background-image: url("https://guidetoiceland.is/image/293766/x/0/small-island-tour-in-the-westman-islands-8.jpg");
+}
+
+#flex-container-4 {
+    background-image: url("https://wallpapercave.com/wp/wp5166915.jpg");
+}
+
+#flex-container-5 {
+    background-image:url("https://images8.alphacoders.com/103/1034952.jpg");
+}
