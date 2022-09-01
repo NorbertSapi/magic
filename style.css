@@ -119,10 +119,10 @@
 /* max-width 992px */
 @media screen and (min-width: 700px) and (max-width: 992px) {
 
-    /*.flex-container {
+    .flex-container {
         width: 300px;
         height: 150px;
-    }*/
+    }
 
     .main-label {
         margin: 50% 0 20% 50%;
@@ -147,9 +147,7 @@
     }
 
     .pictures {
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
 }
