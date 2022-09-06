@@ -74,7 +74,7 @@
 /* Media quary */
 
 
-/* max-with 600px*/
+/* max-with 700px*/
 @media screen and (max-width: 700px) {
     
     .main {
@@ -116,7 +116,9 @@
     
 }
 
+
 /* max-width 992px */
+/*
 @media screen and (min-width: 700px) and (max-width: 992px) {
 
     .flex-container {
@@ -150,4 +152,4 @@
         justify-content: center;
     }
 
-}
+}*/
