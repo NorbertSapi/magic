@@ -123,8 +123,8 @@
 @media screen and (min-width: 700px) and (max-width: 992px) {
 
     .flex-container {
-        width: 500px;
-        height: 350px;
+        width: 600px;
+        height: 450px;
     }
 
     .main-label {
