@@ -75,8 +75,9 @@
 
 
 /* max-with 700px*/
+
 @media screen and (max-width: 700px) {
-    
+/*    
     .main {
         background-image: url(https://www.bliss.mv/wp-content/uploads/2020/05/IMG_1483-scaled.jpg);
         background-size: cover;
@@ -107,7 +108,7 @@
         color: black;
     }
 
-    /*Pictures*/
+    /*Pictures*
     .pictures {
         flex-direction: column;
         align-items: center;
@@ -117,9 +118,9 @@
 }
 
 
-/* max-width 992px */
-/*
-@media screen and (min-width: 700px) and (max-width: 992px) {
+/* max-width 992px *
+
+@media screen and (min-width: 700px) and (max-width: 992px) {*/
 
     .flex-container {
         width: 300px;
@@ -152,4 +153,4 @@
         justify-content: center;
     }
 
-}*/
+}
