@@ -123,8 +123,8 @@
 @media screen and (min-width: 700px) and (max-width: 992px) {
 
     .flex-container {
-        width: 400px;
-        height: 250px;
+        width: 500px;
+        height: 350px;
     }
 
     .main-label {
@@ -150,7 +150,9 @@
     }
 
     .pictures {
-        justify-content: center;
+        /*justify-content: center;*/
+        flex-direction: column;
+        align-items: center;
     }
 
 }
